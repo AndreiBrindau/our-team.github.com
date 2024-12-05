@@ -49,12 +49,12 @@ list-style: none;
 
     <br>
    <h2>Andrei</h2>
-    <h3>  The Coder And Attachment Builder</h3>
+    <div class="im"><h3>  The Coder And Attachment Builder</h3></div>
     <h4>  (Person Who Made This Website!)  </h4>
-<img src="GOPR1204.JPG" style="border:5px solid gray; padding:3px; margin:5px”"  height="400px">             
+<img class="img" src="GOPR1204.JPG" style="border:5px solid gray; padding:3px; margin:5px”"  height="400px">             
     <h2>George</h2>
-    <h3>   The Robot Builder </h3>
-         <img src="GOPR1201.JPG" style="border:5px solid gray; padding:3px; margin:5px”" height="400px">
+   <div><h3>   The Robot Builder </h3></div>
+         <img class="img" src="GOPR1201.JPG" style="border:5px solid gray; padding:3px; margin:5px”" height="400px">
     <br>
     <br>
     <br>
@@ -62,11 +62,23 @@ list-style: none;
     <br>
     <br>
     <style>
+.im{
+  animation-name: hi;
+  animation-duration: 5s;
+}
+@keyframes hi{
+  from{width:0cm;}
+  to{width:10cm;}
+}
 
-
-
-
-
+.img{
+  animation-name:jk;
+  animation-duration: 4s;
+}
+@keyframes jk{
+from{height:0px;}
+to{height:400px;}
+}
         .dropdown button:hover{
         background-color: blue;
         box-shadow: 0 0 40px black;
